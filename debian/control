@@ -1,0 +1,16 @@
+Source: pyfastlz-native
+Maintainer: Oscar Diaz <odiaz@ieee.org>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10~),
+ dh-python, python3,
+ pybuild-plugin-pyproject
+Standards-Version: 4.5.0
+X-Python3-Version: >= 3.9
+
+Package: python3-pyfastlz-native
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends},
+Description: FastLZ implementation in native python3
+ This package includes a native python3 implementation of the FastLZ algorithm
+ (Lempel-Ziv 77 algorithm).

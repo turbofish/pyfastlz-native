@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE=1
+
+# Pybuild configs
+export PYBUILD_NAME=pyfastlz-native
+export PYBUILD_DISABLE=test
+export PYBUILD_SYSTEM=pyproject
+
+# main packaging script based on dh7 syntax
+%:
+	dh $@ --with python3 --buildsystem=pybuild

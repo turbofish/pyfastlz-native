@@ -1,6 +1,9 @@
-MIT License
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pyfastlz-native
+Upstream-Contact: Oscar Diaz <odiaz@ieee.org>
+Copyright: Copyright 2023, Oscar Diaz
 
-Copyright (c) 2023 Oscar Diaz <odiaz@ieee.org>
+License: MIT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
